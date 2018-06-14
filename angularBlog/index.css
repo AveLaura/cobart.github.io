@@ -1,0 +1,39 @@
+﻿body,html{
+  height:100%;
+}
+nav{
+  background-color: #2F365F;
+}
+.img{
+  background-image: url(gallery.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text{
+  
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #2779BD;
+}
+ul{
+  font-family: colonna mt;
+  font-size: 200%;
+}
+
+
+li{
+  margin-left: 20px;
+  margin-right:20px; 
+}
+li a:hover {
+    background-color: #2779BD;
+}
+.w{
+  color: red;
+ 
+}

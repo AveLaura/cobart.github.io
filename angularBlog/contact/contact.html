@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head> 
+  <title>Contact</title>
+  <link rel="icon" href="../15.png" type="image/png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="origin">
+  <script src="contact.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"> 
+  <link href='../azoria/css.css' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="contact.css">
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMQt5FytQ9hrxy_QdUonCLWH7EGro7dF4&callback=initMap"async defer></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button> 
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item ">
+        <a href="../index.html" class="nav-link">Home</a>
+      </li>
+       <li class="nav-item">
+        <a href="../about/about.html" class="nav-link">About</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"> Art <span class="w">W</span>orks</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="../cobweb/cobweb.html" id="drop">Cob <span class="w">W</span>eb</a>
+             <a class="dropdown-item" href="../oil/oilp.html" id="drop">Oil Painting</a>
+        </div>
+        <li class="nav-item">
+        <a href="../bio/bio.html" class="nav-link">Biography</a>
+      </li>
+      </li>
+      <li class="nav-item">
+        <a href="../quotes/quotes.html" class="nav-link">Quotes</a>
+      </li>
+       <li class="nav-item">
+        <a href="../press/press.html" class="nav-link">Press</a>
+      </li>
+      <li class="nav-item active">
+        <a href="contact.html" class="nav-link">Contact</a>
+      </li>
+    </ul>
+
+  </div>
+</nav>
+<br><br>
+<h1 style="text-align:center; font:400 80px/1.1 'Arizonia', Helvetica, sans-serif; text-shadow:2px 2px 0px black; color:#2779BD;">Andranik Avetisyan</h1>
+<br><br><br>
+    <div class="container">
+      <div class="row">
+    <div class="col-md-6 col-sm-6"> 
+      <a target="_blank" href="https://web.facebook.com/profile.php?id=100004293696302"><i class="fa fa-facebook"></i></a>
+      <a target="_blank" href="https://www.instagram.com/cobwebart.ado/"><i class="fa fa-instagram"></i></a>
+      <div id="map" ></div>
+</div>
+
+<div class="col-md-6 col-sm-6" >
+  
+  
+    <div class="form-group">
+      <form method="POST" action="https://formspree.io/laura.odonoghue80@gmail.com">
+        <br><br>
+    <p>Name</p>    
+    <input type="text" name="name" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm"><br><br>
+    <p>Last Name</p>    
+    <input type="text" name="name" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm"><br><br>
+    
+    <p>E-mail</p>
+    <input type="email" name="_replyto" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm"><br><br>
+    <p>Message</p>
+    <input type="text" name="name" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+    <br><br>
+    <button class="btn btn-primary" value="submit">Submit</button>
+    <input type="hidden" name="_next" value="http://localhost:8000/contact.html" />
+    <input type="text" name="_gotcha" style="display:none" />
+      </form>
+</div>
+ </div>
+  </div>
+
+  
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+</html>

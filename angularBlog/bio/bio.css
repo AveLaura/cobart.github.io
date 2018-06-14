@@ -1,0 +1,30 @@
+﻿body,html{
+  height:100%;
+}
+nav{
+  background-color: #2F365F;
+}
+ul{
+  font-family: colonna mt;
+  font-size: 200%;
+}
+li{
+  margin-left: 20px;
+  margin-right:20px; 
+}
+li a:hover {
+    background-color: #2779BD;
+}
+.w{
+  color: red;
+}
+img{background-image: url(49.jpg);
+  height: 50vw;
+  width: 80vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img{
+  text-align: center;
+}
